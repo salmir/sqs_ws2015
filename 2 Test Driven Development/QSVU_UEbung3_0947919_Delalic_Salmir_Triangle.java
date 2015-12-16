@@ -8,7 +8,7 @@ public class QSVU_UEbung3_0947919_Delalic_Salmir_Triangle {
      * Calculates the hypothenuse of the triangle by knowing the other two lenghts
      */
     public void calcHyp(double a, double b) {
-
+        this.hyp = Math.sqrt((a*a) + (b*b));
     }
 
     /**
@@ -17,7 +17,7 @@ public class QSVU_UEbung3_0947919_Delalic_Salmir_Triangle {
      */
     public double calcAngle(double knownAngle) {
 
-        return 0;
+        return 90-knownAngle;
     }
 
     /**
@@ -26,7 +26,7 @@ public class QSVU_UEbung3_0947919_Delalic_Salmir_Triangle {
      */
     public double calcArea(double a, double b) {
 
-        return 0.0;
+        return (a*b) / 2;
     }
 
     public double getB() {
