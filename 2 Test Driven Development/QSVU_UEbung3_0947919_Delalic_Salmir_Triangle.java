@@ -7,7 +7,7 @@ public class QSVU_UEbung3_0947919_Delalic_Salmir_Triangle {
     /**
      * Calculates the hypothenuse of the triangle by knowing the other two lenghts
      */
-    private void calcHyp() {
+    public void calcHyp(double a, double b) {
 
     }
 
@@ -15,16 +15,18 @@ public class QSVU_UEbung3_0947919_Delalic_Salmir_Triangle {
      * Calculates the 3rd angle of the triangle, with a second known angle as input
      * @param knownAngle not the right Angle! (less then 90)
      */
-    private void calcAngle(double knownAngle) {
+    public double calcAngle(double knownAngle) {
 
+        return 0;
     }
 
     /**
      * Calculates the surface of the triangle
      * @return the surface of the triangle
      */
-    private double calcArea() {
+    public double calcArea(double a, double b) {
 
+        return 0.0;
     }
 
     public double getB() {
@@ -43,7 +45,7 @@ public class QSVU_UEbung3_0947919_Delalic_Salmir_Triangle {
         this.a = a;
     }
 
-    public double getHyp {
+    public double getHyp() {
         return hyp;
     }
 }
